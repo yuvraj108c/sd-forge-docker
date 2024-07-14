@@ -74,4 +74,4 @@ COPY --chmod=755 scripts/* ./
 
 RUN ./setup-ssh.sh
 
-CMD ["./start.sh"]
+CMD ["/workspace/stable-diffusion-webui-forge/start.sh"]
